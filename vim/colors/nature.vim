@@ -11,7 +11,7 @@ endif
 let g:colors_name="nature"
 hi Normal       ctermfg=LightGray  ctermbg=Black      guifg=#D3D7CF    guibg=#000000
 hi NonText      ctermfg=DarkGray   ctermbg=Black      guifg=#555753    guibg=#000000
-hi Comment      ctermfg=White      ctermbg=White      guifg=#000000    guibg=#EEEEEC
+hi Comment      ctermfg=Black      ctermbg=White      guifg=#000000    guibg=#EEEEEC
 hi Constant     ctermfg=Cyan   ctermbg=Black      guifg=Cyan    guibg=#000000
 hi Character    ctermfg=DarkBlue   ctermbg=Black      guifg=#3465A4    guibg=#000000
 hi Boolean      ctermfg=DarkBlue   ctermbg=Black      guifg=#3465A4    guibg=#000000

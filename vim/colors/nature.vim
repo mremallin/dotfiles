@@ -11,8 +11,8 @@ endif
 let g:colors_name="nature"
 hi Normal       ctermfg=LightGray  ctermbg=Black      guifg=#D3D7CF    guibg=#000000
 hi NonText      ctermfg=DarkGray   ctermbg=Black      guifg=#555753    guibg=#000000
-hi Comment      ctermfg=DarkGray   ctermbg=Black      guifg=#555753    guibg=#000000 gui=italic
-hi Constant     ctermfg=DarkCyan   ctermbg=Black      guifg=#06989A    guibg=#000000
+hi Comment      ctermfg=White      ctermbg=White      guifg=#000000    guibg=#EEEEEC
+hi Constant     ctermfg=Cyan   ctermbg=Black      guifg=Cyan    guibg=#000000
 hi Character    ctermfg=DarkBlue   ctermbg=Black      guifg=#3465A4    guibg=#000000
 hi Boolean      ctermfg=DarkBlue   ctermbg=Black      guifg=#3465A4    guibg=#000000
 hi Identifier   ctermfg=Cyan       ctermbg=Black      guifg=#34E2E2    guibg=#000000
@@ -30,7 +30,8 @@ hi WarningMsg   ctermfg=Yellow     ctermbg=Black      guifg=#FCE94F    guibg=#00
 hi Title        ctermfg=White      ctermbg=DarkCyan   guifg=#EEEEEC    guibg=#06989A
 hi VertSplit    ctermfg=White      ctermbg=Black      guifg=#EEEEEC    guibg=#000000
 hi Directory    ctermfg=Cyan       ctermbg=DarkBlue   guifg=#34E2E2    guibg=#3465A4
-hi Cursor       ctermfg=White      ctermbg=White      guifg=#000000    guibg=#EEEEEC
+hi Cursor       ctermfg=DarkYellow ctermbg=Black      guifg=#EDDE5C    guibg=#000000 cterm=none term=bold
+hi CursorLine   ctermfg=Black      ctermbg=White      guifg=#000000    guibg=#FFFFFF
 hi StatusLine   ctermfg=White      ctermbg=Black      guifg=#EEEEEC    guibg=#000000 cterm=bold,underline term=bold gui=bold,underline
 hi StatusLineNC ctermfg=Gray       ctermbg=Black      guifg=#D3D7CF    guibg=#000000 cterm=bold,underline term=bold gui=bold,underline
 hi LineNr       ctermfg=DarkYellow ctermbg=Black      guifg=#EDDE5C    guibg=#000000 cterm=none term=bold
